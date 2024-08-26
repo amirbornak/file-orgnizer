@@ -1,43 +1,38 @@
-# DirectorySorter
+DirectorySorter
+Overview
+DirectorySorter is a user-friendly Python application designed using Tkinter to help you effectively organize files within a specified directory by their file extensions. The tool automatically creates subdirectories for each file type, allowing you to maintain a tidy digital workspace.
 
-## Overview
-
-`DirectorySorter` is a simple Python application built with Tkinter that allows users to organize files in a selected directory by their file extensions. This tool automatically creates subdirectories for each file type and moves the corresponding files into their respective folders, helping to keep your directories tidy.
-
-## Features
-
-- **User-friendly GUI**: The application provides a graphical interface for easy navigation.
-- **Directory Selection**: Users can browse and select a directory to sort.
-- **Automatic Sorting**: Files are automatically sorted into subdirectories based on their file extensions.
-- **Extension Handling**: Files without extensions are moved into a dedicated "no_extension" folder.
-
-## Requirements
-
+Features
+User-friendly GUI: An intuitive graphical interface that simplifies navigation.
+Directory Selection: Easily browse and select the directory you wish to sort.
+Automatic Sorting: Files are sorted automatically into subdirectories based on their extensions.
+Extension Handling: Files without extensions are moved into a dedicated “no_extension” folder.
+Requirements
 To run this application, ensure you have the following packages installed:
 
-- Python 3.x
-- Tkinter (usually included with Python installations)
+Python 3.x
+Tkinter (typically included with Python installations)
+Additionally, you may need to install the shutil module if it’s not already available:
 
-You may also need to install the `shutil` module if it is not available:
-
-```bash
 pip install shutil
-
+        
+    
 Installation
 Clone or download the repository to your local machine.
+
 Navigate to the project directory.
+
 Run the script using Python:
+
 python main.py
-----------------------------------------------------------------------------------------------------------------
+        
+    
 Usage
 Launch the application.
 Click the Browse button to select the directory you want to sort.
-Once a directory is selected, the application will sort all files into subdirectories based on their extensions.
-Check the status message for sorting confirmation.
-
-----------------------------------------------------------------------------------------------------------------
+After selecting a directory, the application will automatically sort all files into subdirectories based on their extensions.
+Check the status message for confirmation that sorting has been completed.
 Example Directory Structure
-
 /your_directory
     ├── document.txt
     ├── image.png
@@ -50,27 +45,21 @@ Example Directory Structure
         └── image.png
     └── /audio
         └── audio.mp3
-
--------------------------------------------------------------------------------------------------------------
-
+        
+    
 Contributing
-If you would like to contribute to this project, feel free to fork the repository and submit a pull request.
-
--------------------------------------------------------------------------------------------------------------
+We welcome contributions to this project! Feel free to fork the repository and submit a pull request.
 
 Tags
 Python
 Tkinter
 File Management
-Sort
+Sorting
 GUI
 Open Source
 GNU License
--------------------------------------------------------------------------------------------------------------
-
 License
-This project is open-source and available under GNU GENERAL PUBLIC LICENSE.
-Author
-Developed by [https://github.com/amirbornak].
+This project is open-source and available under the GNU GENERAL PUBLIC LICENSE.
 
-Feel free to replace the placeholder for the author section with your name or GitHub handle!
+Author
+Developed by amirbornak here.
