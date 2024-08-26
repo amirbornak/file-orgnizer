@@ -12,7 +12,7 @@
 
 1. Run the script:
    ```bash
-   python directory_sorter.py
+   python main.py
 A window will appear, allowing you to select a directory.
 Once selected, the program will automatically sort the files into folders based on their extensions.
 Requirements
