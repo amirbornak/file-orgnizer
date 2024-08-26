@@ -28,13 +28,14 @@ Clone or download the repository to your local machine.
 Navigate to the project directory.
 Run the script using Python:
 python main.py
-
+----------------------------------------------------------------------------------------------------------------
 Usage
 Launch the application.
 Click the Browse button to select the directory you want to sort.
 Once a directory is selected, the application will sort all files into subdirectories based on their extensions.
 Check the status message for sorting confirmation.
 
+----------------------------------------------------------------------------------------------------------------
 Example Directory Structure
 
 /your_directory
@@ -50,9 +51,22 @@ Example Directory Structure
     └── /audio
         └── audio.mp3
 
+-------------------------------------------------------------------------------------------------------------
 
 Contributing
 If you would like to contribute to this project, feel free to fork the repository and submit a pull request.
+
+-------------------------------------------------------------------------------------------------------------
+
+Tags
+Python
+Tkinter
+File Management
+Sort
+GUI
+Open Source
+GNU License
+-------------------------------------------------------------------------------------------------------------
 
 License
 This project is open-source and available under GNU GENERAL PUBLIC LICENSE.
